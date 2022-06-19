@@ -17,7 +17,7 @@ pipeline {
                 echo "Installing packages ..."
                 //Install the packages from package.json
                 // sh 'cd ${FRONTEND_PACKAGE}'
-                sh 'npm install'
+                sh 'npm install ./tmpcache'
             }
         }
         stage('Build') {
