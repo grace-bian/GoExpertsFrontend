@@ -46,7 +46,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
             return (
               <div
                 className={styles.item}
-                key={index.toString()}
+                key={element}
                 onClick={onClick}
                 onKeyDown={() => {}}
                 role="menuitem"
