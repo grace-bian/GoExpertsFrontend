@@ -7,8 +7,8 @@ pipeline {
         BACKEND_PACAGE = 'backend'
     }
 
-    tool {nodejs "nodejs"}
-    
+    tools {nodejs "nodejs"}
+
     stages {
         stage('Install packages') {
             steps {
